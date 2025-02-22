@@ -5,7 +5,8 @@ import Welcome from './component/Welcome';
 function App() {
   return (
     <div className="App">
-		<Welcome />
+		<Welcome name="Sounak"/>
+		<Welcome name="Ankan"/>
     </div>
   );
 }
