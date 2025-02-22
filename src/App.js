@@ -4,11 +4,12 @@ import Welcome from './component/Welcome';
 import Greeting from './component/Greeting';
 import { FirstComponent as FC, SecondComponent } from './component/MyComponent';
 import MC from './component/MyComponent'
+import Hello from './component/HelloWorld'
 
 function App() {
   return (
     <div className="App">
-		<Welcome name="Sounak"/>
+		{/* <Welcome name="Sounak"/>
 		<Welcome name="Ankan"/>
 
 		<Greeting name="Josh"/>
@@ -17,7 +18,9 @@ function App() {
 		<FC />
 		<SecondComponent />
 
-		<MC />
+		<MC /> */}
+
+		<Hello />
 
     </div>
   );
