@@ -5,6 +5,7 @@ import Greeting from './component/Greeting';
 import { FirstComponent as FC, SecondComponent } from './component/MyComponent';
 import MC from './component/MyComponent'
 import Hello from './component/HelloWorld'
+import Student from './component/Student'
 
 function App() {
   return (
@@ -20,7 +21,12 @@ function App() {
 
 		<MC /> */}
 
-		<Hello />
+		{/* <Hello /> */}
+
+		<Student 
+		firstName="Sounak"
+		lastName="Saha"
+		email="sounak@gmail.com" />
 
     </div>
   );
