@@ -5,6 +5,7 @@ const student = (props) => {
             <p>Student First Name: <strong>{props.student.firstName}</strong></p>
             <p>Student Last Name: <strong>{props.student.lastName}</strong></p>
             <p>Student email: <strong>{props.student.email}</strong></p>
+            <p>Skills: {props.skills.join(", ")}</p>
         </div>
     )
 }

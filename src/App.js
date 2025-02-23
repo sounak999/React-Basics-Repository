@@ -14,6 +14,8 @@ function App() {
 		email: "sounak@gmail.com"
 	}
 
+	const skills = ['Java', 'Spring Boot', 'JavaScript']
+
   return (
     <div className="App">
 		{/* <Welcome name="Sounak"/>
@@ -29,7 +31,7 @@ function App() {
 
 		{/* <Hello /> */}
 
-		<Student student={student} />
+		<Student student={student} skills={skills} />
 
     </div>
   );
