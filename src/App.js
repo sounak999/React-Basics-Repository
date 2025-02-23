@@ -8,6 +8,12 @@ import Hello from './component/HelloWorld'
 import Student from './component/Student'
 
 function App() {
+	const student = {
+		firstName: "Sounak",
+		lastName: "Saha",
+		email: "sounak@gmail.com"
+	}
+
   return (
     <div className="App">
 		{/* <Welcome name="Sounak"/>
@@ -23,10 +29,7 @@ function App() {
 
 		{/* <Hello /> */}
 
-		<Student 
-		firstName="Sounak"
-		lastName="Saha"
-		email="sounak@gmail.com" />
+		<Student student={student} />
 
     </div>
   );
