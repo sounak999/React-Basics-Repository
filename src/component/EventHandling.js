@@ -15,8 +15,8 @@ const EventHandling = () => {
         <div>
             <h1>Event Handling example</h1>
             <h2>Count: {count}</h2>
-            <button onClick={updateCount()}>Increment</button>
-            <button onClick={resetCount()}>Reset</button>
+            <button onClick={updateCount}>Increment</button>
+            <button onClick={resetCount}>Reset</button>
         </div>
     )
 }
