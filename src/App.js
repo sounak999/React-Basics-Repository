@@ -7,6 +7,7 @@ import MC from './component/MyComponent'
 import Hello from './component/HelloWorld'
 import Student from './component/Student'
 import Employee from './component/Employee'
+import User from './component/User';
 
 function App() {
 	const student = {
@@ -39,7 +40,10 @@ function App() {
 		lastName = "Saha"
 		email = "sounaksaha@gmail.com"/> */}
 
-		<Employee />
+		{/* <Employee /> */}
+
+		<User />
+
     </div>
   );
 }
