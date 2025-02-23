@@ -6,6 +6,7 @@ import { FirstComponent as FC, SecondComponent } from './component/MyComponent';
 import MC from './component/MyComponent'
 import Hello from './component/HelloWorld'
 import Student from './component/Student'
+import Employee from './component/Employee'
 
 function App() {
 	const student = {
@@ -33,11 +34,12 @@ function App() {
 
 		{/* <Student student={student} skills={skills} /> */}
 
-		<Student 
+		{/* <Student 
 		firstName = "Sounak"
 		lastName = "Saha"
-		email = "sounaksaha@gmail.com"/>
+		email = "sounaksaha@gmail.com"/> */}
 
+		<Employee />
     </div>
   );
 }
