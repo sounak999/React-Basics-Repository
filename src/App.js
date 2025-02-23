@@ -8,6 +8,7 @@ import Hello from './component/HelloWorld'
 import Student from './component/Student'
 import Employee from './component/Employee'
 import User from './component/User';
+import EventHandling from './component/EventHandling';
 
 function App() {
 	const student = {
@@ -42,7 +43,9 @@ function App() {
 
 		{/* <Employee /> */}
 
-		<User />
+		{/* <User /> */}
+
+		<EventHandling />
 
     </div>
   );
