@@ -31,7 +31,12 @@ function App() {
 
 		{/* <Hello /> */}
 
-		<Student student={student} skills={skills} />
+		{/* <Student student={student} skills={skills} /> */}
+
+		<Student 
+		firstName = "Sounak"
+		lastName = "Saha"
+		email = "sounaksaha@gmail.com"/>
 
     </div>
   );
